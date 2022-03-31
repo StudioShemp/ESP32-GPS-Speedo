@@ -12,7 +12,7 @@ I built this as a speedo to tape to my son's RC car (Rustler VXL) to measure spe
 
 
 # Build decisions:
-I used pins 16/17 - RX2/TX2 for the GPS I/O so I wouldn't have issues uploading code (flashing uses RX/TX on pins 1 and 3 and it's likely a cause of a lot of "esptool won't upload" issues in forums). Of course you could assign software serial to other pins and change the code - but why wast perfectly good serial hardware UARTS) 
+I used one of the two available embedded Serial hardware UARTS for the GPS I/O. In this case the second UART, pins 16/17 - RX2/TX2 so I wouldn't have issues uploading code (flashing uses RX/TX on pins 1 and 3 and it's likely a cause of a lot of "esptool won't upload" issues in forums when they are otherwise used). Of course you could assign software serial to other pins and change the code - but why wast perfectly good serial hardware UARTS) 
 
 # Dependencies:
 - SSD1306 Library from https://github.com/adafruit/Adafruit_SSD1306Uses
