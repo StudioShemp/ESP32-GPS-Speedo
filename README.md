@@ -8,7 +8,7 @@ I built this as a speedo to tape to my son's RC car (Rustler VXL) to measure spe
 - a four pin 0.96 OLED module for the display connected via SDA/SCL 
 - Neo 6M or 7M GPS module. I used a UBX2828/VK2828 all in one module from AliExpress
 - An ESP32 module that exposes SDS/SCL and hardware serial RX/TX. I started with a ESP32 DevKit C, which worked fine - but as it needed to be portable I switched to a DFRobot Firebeetle ESP32-E (DFR0654) because of its embedded LiPo charging and battery management. 
-- I'm running a tiny 501225 LiPo and it provides hours of use before needing a charge.
+- I'm running a tiny 801437 LiPo and it provides hours of use before needing a charge.
 
 
 # Build decisions:
